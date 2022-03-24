@@ -1,0 +1,12 @@
+CPU = stm32
+CPU_MODEL = stm32l031k6
+
+# Put defined MCU peripherals here (in alphabetical order)
+FEATURES_PROVIDED +=  i2c
+FEATURES_PROVIDED +=  pwm
+FEATURES_PROVIDED +=  rtc
+FEATURES_PROVIDED +=  rtt
+FEATURES_PROVIDED +=  spi
+FEATURES_PROVIDED +=  timer
+FEATURES_PROVIDED +=  uart
+FEATURES_PROVIDED += adc
